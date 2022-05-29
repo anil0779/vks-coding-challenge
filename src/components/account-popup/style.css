@@ -1,0 +1,51 @@
+.account-logo-button {
+    margin-bottom: 10rem;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .account-logo-button {
+        margin-bottom: 0rem;
+    }
+  }
+
+.account-menu {
+    background-color: white;
+    padding: 12px;
+    border: 1px solid lightgray;
+}
+
+.account-menu>div {
+    padding: 4px;
+}
+
+.account-sub-menu {
+    background-color: white;
+    padding: 12px;
+    border: 1px solid lightgray;
+    margin-left: 8px;
+}
+
+.account-sub-menu>div {
+    padding: 4px;
+}
+
+.margin-l-1 {
+    margin-left: 2rem;
+}
+
+.account-menu div.active {
+    text-decoration: underline;
+    text-decoration-color: green;
+}
+
+.account-menu div.active + div {
+    color: green;
+}
+
+.account-menu div.not-active + div {
+    color: white;
+}
+
+.logout-cta {
+    text-decoration: none;
+}

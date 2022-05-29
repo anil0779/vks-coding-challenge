@@ -1,0 +1,56 @@
+.navbar {
+    background-color: black;
+    width: 64px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2px;
+}
+
+/* target mobile device */
+@media only screen and (max-device-width: 768px) {
+    .navbar {
+        width: 100vw;
+        height: 130px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+        flex-direction: row;
+    }
+  }
+
+.app-logo {
+    padding-top: 4px;
+    padding-bottom: 12px;
+}
+
+.icon-text {
+    color: white;
+}
+
+.icon-container  {
+    height: 50px;
+    width: 50px;
+}
+
+.account-logo {
+    border: 2px white solid;
+    border-radius: 50%;
+}
+
+.icon-text {
+    font-size: 12px;
+}
+
+.menu-icon {
+    background-color: #323232;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+a.active > .menu-icon {
+    background-color: blue;
+}
